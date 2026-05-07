@@ -4,7 +4,7 @@
     grid-template-rows: 1fr 1fr;
     min-height: 100vh;
 }
-img {
+.hero-image {
     grid-column: 1 / 2;
     grid-row: 2 / 4;
 
@@ -21,7 +21,7 @@ body {
     font-size: 100%;
 }
 
-header {
+.header {
     grid-column: 1 / 4;
     grid-row: 1 / 2;
     background-color: lightcoral;
@@ -31,24 +31,42 @@ header {
     align-items: center;
 }
 
-header h1 {
+.header_title {
     font-size: 5vw;
     color: lightseagreen;
 }
 
-nav ul li  {
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 1rem;
-}
-nav a {
+.nav {
     color: lightslategray;
     font-size: 1.5rem;
     text-decoration: none;
     padding: 0.5vw;
 }
 
-main {
+.nav__list  {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    list-style: none;
+}
+
+.nav__item {
+    width: 100%
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav__item--active {
+    background-color: white;
+}
+
+.nav__link--active {
+    color: lightslategray;
+}
+.main-content {
     grid-column: 2 / 4;
     grid-row: 2 / 4;
     display: flex;
@@ -59,16 +77,16 @@ main {
     color: rgb(75, 74, 74);
 }
 
-section h2 {
+.section__title {
     font-size: 2vw;
     margin-bottom: 1rem;
 }
 
-section p {
+.section__text {
     font-size: 1rem;
 }
 
-form {
+.form {
     margin-top: 5vh;
     display: flex;
     flex-direction: column;
@@ -76,12 +94,12 @@ form {
     max-width: 400px;
 }
 
-section button {
+.form__button {
     background-color: lightseagreen;
     color: lightgoldenrodyellow;
     margin-bottom: 10vh;
 }
-footer {
+.footer {
     text-align: center;
     padding: 1.5rem;
     color: rgb(218, 161, 223);

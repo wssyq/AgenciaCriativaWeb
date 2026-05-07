@@ -8,45 +8,45 @@
 </head>
 <body>
 <div class="container">
-    <header>
-        <h1>Agência Criativa Web</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#sobre">Sobre Nós</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#depoimentos">Depoimentos</a></li>
-                <li><a href="#contato">Contate-nos</a></li>
+    <header class="header">
+        <h1 class="header_title">Agência Criativa Web</h1>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item nav__item--active"><a class="nav__link nav__link--active" href="#home">Início</a></li>
+                <li class="nav__item nav__item--active"><a class="nav__link nav__link--active" href="#sobre">Sobre Nós</a></li>
+                <li class="nav__item nav__item--active"><a class="nav__link nav__link--active" href="#servicos">Serviços</a></li>
+                <li class="nav__item nav__item--active"><a class="nav__link nav__link--active" href="#depoimentos">Depoimentos</a></li>
+                <li class="nav__item nav__item--active"><a class="nav__link nav__link--active" href="#contato">Contate-nos</a></li>
             </ul>
         </nav>
     </header>
 
-    <img 
+    <img class="hero-image"
         src="Maos_que_dancam-1.jpg"
         srcset="Maos_que_dancam-1_pequena.jpg 600w,
                 Maos_que_dancam-1_media.jpg 1200w,
                 Maos_que_dancam-1.jpg 1800w"
         sizes="100vw">
 
-    <main>
-        <section id="home">
-            <h2>Bem-vindo</h2>
-            <p> Na Agência Criativa Web, criamos soluções digitais que destacam sua marca e geram resultados reais. Unimos criatividade, estratégia e tecnologia para desenvolver sites modernos, identidades visuais marcantes e experiências que conectam empresas ao seu público.
+    <main class="main-content">
+        <section class="section" id="home">
+            <h2 class="section__title">Bem-vindo</h2>
+            <p class="section__text"> Na Agência Criativa Web, criamos soluções digitais que destacam sua marca e geram resultados reais. Unimos criatividade, estratégia e tecnologia para desenvolver sites modernos, identidades visuais marcantes e experiências que conectam empresas ao seu público.
                 Seu negócio merece mais do que apenas estar online — merece se destacar.
                 Vamos construir o futuro digital da sua marca juntos.</p>
         </section>
 
-        <section id="sobre">
-            <h2>Sobre nós</h2>
-            <p> A Agência Criativa Web nasceu com o propósito de transformar ideias em soluções digitais estratégicas. Somos uma equipe apaixonada por design, tecnologia e inovação, dedicada a criar projetos que unem estética, funcionalidade e resultado.
+        <section class="section" id="sobre">
+            <h2 class="section__title">Sobre nós</h2>
+            <p class="section__text"> A Agência Criativa Web nasceu com o propósito de transformar ideias em soluções digitais estratégicas. Somos uma equipe apaixonada por design, tecnologia e inovação, dedicada a criar projetos que unem estética, funcionalidade e resultado.
                 Acreditamos que cada marca tem uma história única. Por isso, trabalhamos de forma personalizada, entendendo as necessidades de cada cliente para desenvolver sites, identidades visuais e estratégias digitais que realmente fazem a diferença.
                 Nosso compromisso é entregar qualidade, criatividade e performance, sempre focados no crescimento e no sucesso dos nossos parceiros.
                 Criatividade que inspira. Estratégia que gera resultados.</p>
         </section>
 
         <section id="servicos">
-            <h2>Nossos Serviços</h2>
-            <p> Na Agência Criativa Web, oferecemos soluções digitais para ajudar sua empresa a crescer e se destacar online.
+            <h2 class="section__title">Nossos Serviços</h2>
+            <p class="section__text"> Na Agência Criativa Web, oferecemos soluções digitais para ajudar sua empresa a crescer e se destacar online.
 
                 Desenvolvimento de Sites
                 Criamos sites modernos, rápidos e responsivos.
@@ -64,21 +64,21 @@
         </section>
 
         <section id="depoimentos">
-            <h2>Depoimentos</h2>
-            <p>⭐️⭐️⭐️⭐️⭐️
+            <h2 class="section__title">Depoimentos</h2>
+            <p class="section__text">⭐️⭐️⭐️⭐️⭐️
 Mariana Souza – Empreendedora
 "A Agência Criativa Web transformou completamente a presença digital da minha empresa. O site ficou moderno, profissional e trouxe muito mais clientes."</p>
-            <p>⭐️⭐️⭐️⭐️⭐️
+            <p class="section__text">⭐️⭐️⭐️⭐️⭐️
                 Carlos Mendes – Loja Online
 "Equipe extremamente dedicada e criativa. Desde o primeiro contato até a entrega final, tudo foi feito com muita qualidade e atenção aos detalhes."</p>
-            <p>⭐️⭐️⭐️⭐️⭐️
+            <p class="section__text">⭐️⭐️⭐️⭐️⭐️
 Fernanda Lima – Consultora
 "O trabalho superou minhas expectativas. Minha marca ganhou uma identidade forte e hoje me sinto muito mais confiante no mercado."</p>
 </section>
 
         <section id="contato">
-            <h2>Contate-nos</h2>
-            <form>
+            <h2 class="section__title">Contate-nos</h2>
+            <form class="form">
                 <label for="nome">Nome</label>
                 <input type="text" id="nome" placeholder="Nome">
 
@@ -88,12 +88,12 @@ Fernanda Lima – Consultora
                 <label>Mensagem:</label>
                 <textarea name="mensagem" rows="10" cols="30" placeholder="Digite sua mensagem"></textarea>
 
-                <button >Enviar</button>
+                <button class="form__button">Enviar</button>
             </form>
         </section>
     </main>
     </div>
-    <footer>
+    <footer class="footer">
         <p>&copy; 2026 Agência Criativa Web - Todos os direitos reservados.</p>
     </footer>
 </body>
